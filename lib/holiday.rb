@@ -84,11 +84,6 @@ def all_holidays_with_bbq(holiday_hash)
       if supply_list.include?("BBQ")
         bbq_holidays << holiday
       end
-      # supply_list.each do |supply|
-      #   if supply == "BBQ"
-      #     bbq_holidays << holiday
-      #   end
-      # end
     end
   end
   bbq_holidays
